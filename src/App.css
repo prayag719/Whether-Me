@@ -1,0 +1,61 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: transparent; /* Make the background transparent */
+  color: white; /* Set the text color to white */
+  border: 2px solid white; /* Add a white border for visibility */
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 10px;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.weather-details {
+  text-align: left;
+}
+
+.weather-details h2 {
+  margin-top: 20px;
+}
+input[type="text"]::placeholder {
+  color: white; /* Set the placeholder text color to white */
+}
+input[type="text"]:focus {
+  border-color: white; /* Set the border color to white when focused */
+}
