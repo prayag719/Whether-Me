@@ -1,5 +1,5 @@
 # Whether-Me
-Whether app,
+Whether app by using React JS,
 
 Used API from https://openweathermap.org/,
 
